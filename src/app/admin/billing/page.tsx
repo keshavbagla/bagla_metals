@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import AdminShell from '@/components/admin/AdminShell';
+import AdminShell from '../../../components/admin/AdminShell';
 import Link from 'next/link';
 import { Plus, Edit3, Download, Search, AlertCircle, CheckCircle2, Clock, Loader2 } from 'lucide-react';
 
