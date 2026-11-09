@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import AdminShell from '@/components/admin/AdminShell';
-import BillingEditor, { BillItem } from '@/components/admin/BillingEditor';
+import AdminShell from '../../../../components/admin/AdminShell';
+import BillingEditor, { BillItem } from '../../../../components/admin/BillingEditor';
 import { Loader2 } from 'lucide-react';
 
 export default function EditBillPage() {
